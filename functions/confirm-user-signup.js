@@ -1,5 +1,4 @@
 const DynamoDB = require('aws-sdk/clients/dynamodb')
-const DynamoDB = require('aws-sdk/clients/dynamodb')
 const DocumentClient = new DynamoDB.DocumentClient()
 const Chance = require('chance')
 const chance = new Chance()
